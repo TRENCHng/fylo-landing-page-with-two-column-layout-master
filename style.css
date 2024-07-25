@@ -1,0 +1,196 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    background-color: var(--neutral-light-grayish-blue);
+}
+:root{
+    --primary-very-dark-blue: hsl(243, 87%, 12%);
+    --primary-desaturated-blue:hsl(238, 22%, 44%);
+    --accent-bright-blue:hsl(224, 93%, 58%);
+    --accent-moderate-cyan:hsl(170, 45%, 43%);
+    --neutral-light-grayish-blue: hsl(240, 75%, 98%)
+}
+:root{
+    --neutral-light-gray: hsl(0, 0%, 75%)
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+.nav-links{
+    display: flex;
+    gap: 1rem;
+}
+.nav-links a{
+    text-decoration: none;
+}
+.logo{
+    width: 6.5rem;
+}
+.home-image{
+    margin-top: 6.5rem;
+}
+.two{
+    text-align: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+}
+.two h2{
+    font-size: 1.6rem;
+    font-weight: 750;
+    color: var(--primary-very-dark-blue);
+}
+.two p{
+    font-weight: 500;
+    margin-top: 2rem;
+}
+#input{
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+#button{
+    width: 100%;
+    padding: 10px 25px 10px 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--accent-bright-blue);
+}
+.three img{
+    margin-top: 9rem;
+}
+.three h3{
+    font-size: 18px;
+    color: var(--primary-very-dark-blue);
+    text-align: center;
+}
+.three p{
+    font-weight: 500;
+    color: var(--neutral-light-gray);
+}
+.productive-flex{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.see-filo-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: var(--accent-moderate-cyan);
+    padding-top: 2.7rem;
+}
+.line{
+    background-color: var(--accent-moderate-cyan);
+    padding: 0.5px  1px;
+    margin-top: 5px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.testimonial{
+    background-color:white ;
+    box-shadow: black 1rem;
+    padding: 10px 0px 10px 2px;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+    font-size: 13px;
+}
+.quote-image img{
+    height: 1.3rem;
+}
+.profile{
+    display: flex;
+    gap: 1rem;
+}
+.profile img{
+    height: 2.5rem;
+    border-radius: 5rem;
+}
+.back-lightblue{
+    background-color: var(--primary-desaturated-blue);
+    color: var(--neutral-light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.back-lightblue h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.back-lightblue p{
+    text-align: center;
+    padding-top: 10px;
+}
+.below{
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.below input{
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.below button{
+    width: 80%;
+    padding: 11px 15px 11px 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--accent-bright-blue); 
+    font-size: 13px;
+}
+.get-padding{
+    padding: 2rem 2rem 2rem 2rem;
+}
+.back-darkblue{
+    background-color: var(--primary-very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--neutral-light-gray);
+    padding-left: 2rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact img{
+    height: 18px;
+}
+.single-image{
+    padding-top: 3rem;
+}
+.phone, .gmail{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
